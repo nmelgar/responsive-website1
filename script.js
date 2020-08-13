@@ -1,4 +1,4 @@
-//Function expression to select elements
+///Function expression to select elements
 const selectElement = (s) => document.querySelector(s);
 //Open the menu on click
 selectElement('.open').addEventListener('click', () => {
